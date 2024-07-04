@@ -1,0 +1,10 @@
+root_paths: # could be more than one
+  - /path/to/video/folder1
+  - /path/to/video/folder2
+schedule_interval: 2  # in minutes
+dither_options:
+  - sierra2_4a
+  - bayer
+  - floyd_steinberg
+width: 800 # Optional: output GIF width. If not specified, original video width will be used.
+fps: 15 # Optional: output GIF fps. If not specified, original video fps will be used.
